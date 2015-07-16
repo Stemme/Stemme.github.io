@@ -4,9 +4,9 @@ body  {
 
 .header {
 	width: 100%;
-	background: linear-gradient(#E0C2FF, #F3E7FF); /* Standard syntax */
+	background: linear-gradient(190deg, #8533FF, #B280FF,  #C299FF); /* Standard syntax */
 	background-color: #B894FF;
-	height: 15%;
+	height: 10%;
 }
 
 .stemmeHeader {
@@ -14,6 +14,35 @@ body  {
 	padding-top: 10px;
 	padding-left: 10px;
 	font-weight: bold;
-	font-family: 'Helvetica';
+	font-family: 'Roboto', sans-serif;
 	float: left;
+}
+
+.navbar {
+	background-color: black;
+	height: 5%;
+}
+
+.navbar ul {
+	color: white;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: -webkit-inline-box;
+}
+
+.menuItem {
+	font-size: 25px;
+	padding: 10px;
+}
+
+.menuItem:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.divider {
+	border-left: solid 1px white;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
