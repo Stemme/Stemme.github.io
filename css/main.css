@@ -1,5 +1,6 @@
 .header {
 	width: 100%;
+	background: linear-gradient(#E0C2FF, #F3E7FF); /* Standard syntax */
 	background-color: #B894FF;
 	height: 15%;
 }
@@ -9,6 +10,6 @@
 	padding-top: 10px;
 	padding-left: 10px;
 	font-weight: bold;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Helvetica';
 	float: left;
 }
