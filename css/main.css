@@ -18,6 +18,11 @@ body  {
 	float: left;
 }
 
+.stemmeHeader:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
 .navbar {
 	background-color: black;
 	height: 5%;
@@ -25,7 +30,6 @@ body  {
 }
 
 .navbar ul {
-	color: white;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -35,11 +39,18 @@ body  {
 .menuItem {
 	font-size: 20px;
 	padding: 10px;
+	text-decoration: none;
+	color: white;
+	display: -webkit-inline-box;
 }
 
-.menuItem:hover {
+a:hover {
 	text-decoration: underline;
 	cursor: pointer;
+}
+
+a.active {
+	font-style: italic;
 }
 
 .divider {
