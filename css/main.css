@@ -1,4 +1,6 @@
-body {
-    background-image: url("../img/bckgnd-zen.jpg");
-    background-repeat: no-repeat;
+.header {
+   width: 100%;
+   position: fixed;
+   background-color: #B894FF;
+   height: 15%;
 }
