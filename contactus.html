@@ -17,16 +17,16 @@
 			<a class="menuItem active" href="contactus.html">Contact us</a>
 		</ul>
 	</div>
-	<div>
+	<div class="container">
 		<h1>Contact us</h1>
 		<form name="contactusform" method="post" action="http://formspree.io/lauren@polorum.com">
-			<label for="name">Your name</label>
-			<input type="text" name="name" placeholder="Name" maxlength="100"/>
-			<label for="email">Your e-mail</label>
-			<input type="text" name="email" placeholder="E-mail" maxlength="100"/>
-			<label for="comments">Comments, concerns, inqueries, queries</label>
-			<textarea name="comments" maxlength="1000"> </textarea>
-			<input type="submit" value="Contact Us"/>
+			<label class="contactLabel" for="name">Your name</label>
+			<input class="contactInput" type="text" name="name" placeholder="Name" maxlength="100"/>
+			<label class="contactLabel" for="email">Your e-mail</label>
+			<input class="contactInput" type="text" name="email" placeholder="E-mail" maxlength="100"/>
+			<label class="contactLabel" for="comments">Comments, concerns, inqueries, queries</label>
+			<textarea name="comments" maxlength="1000" rows="4" cols="50"> </textarea>
+			<input class="contactUsSubmit" type="submit" value="Contact Us"/>
 		</form>
 	</div>
 </body>

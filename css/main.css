@@ -63,3 +63,24 @@ a.active {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
+.container {
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.contactLabel {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.contactInput {
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.contactUsSubmit {
+	display: block;
+	padding: 5px;
+	margin-top: 10px;
+}
