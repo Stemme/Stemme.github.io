@@ -13,19 +13,14 @@ label {
 	background: linear-gradient(190deg, #8533FF, #B280FF,  #C299FF); /* Standard syntax */
 	background-color: #B894FF;
 	height: 10%;
+	text-align: center;
+  	display: inline-block;
 }
 
 .stemmeHeader {
 	font-size: 35px;
-	padding-top: 10px;
-	padding-left: 10px;
 	font-weight: bold;
-	float: left;
-}
-
-.stemmeHeader:hover {
-	cursor: pointer;
-	text-decoration: underline;
+	padding-top: 2.5%;
 }
 
 .navbar {
