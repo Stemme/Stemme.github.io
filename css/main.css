@@ -39,6 +39,7 @@ label {
 	margin: 0;
 	padding: 0;
 	display: -webkit-inline-box;
+	display: -moz-inline-box;
 }
 
 .menuItem {
@@ -47,6 +48,7 @@ label {
 	text-decoration: none;
 	color: white;
 	display: -webkit-inline-box;
+	display: -moz-inline-box;
 }
 
 a:hover {
