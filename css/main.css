@@ -86,3 +86,12 @@ a.active {
 	padding: 5px;
 	margin-top: 10px;
 }
+
+.center {
+	text-align: center;
+}
+
+.construction {
+	padding-top: 20px;
+	font-weight: bold;
+}
